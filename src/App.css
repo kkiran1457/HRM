@@ -1,0 +1,11 @@
+.app {
+  display: flex; /* Makes sidebar and content align horizontally */
+}
+
+.app__content {
+  flex: 1; /* Fills the remaining space beside the sidebar */
+  background-color: #f8f6f6; /* Red background as seen in your screenshot */
+  padding: 20px; /* Adds some spacing */
+  height: 100vh; /* Full height for main content */
+  overflow-y: auto; /* Allows scrolling if content overflows */
+}
